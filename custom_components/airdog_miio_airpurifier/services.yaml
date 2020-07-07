@@ -1,0 +1,33 @@
+fan_set_child_lock_on:
+  description: Turn the child lock on.
+  fields:
+    entity_id:
+      description: Name of the xiaomi miio entity.
+      example: "fan.xiaomi_miio_device"
+
+fan_set_child_lock_off:
+  description: Turn the child lock off.
+  fields:
+    entity_id:
+      description: Name of the xiaomi miio entity.
+      example: "fan.xiaomi_miio_device"
+
+fan_set_mode:
+  description: Set mode.
+  fields:
+    entity_id:
+      description: Name of the xiaomi miio entity.
+      example: "fan.xiaomi_miio_device"
+    mode:
+      description: auto, sleep, manual.
+      example: auto
+    speed:
+      description: set speed for manual mode.
+      example: 1
+
+fan_reset:
+  description: Reset device.
+  fields:
+    entity_id:
+      description: Name of the xiaomi miio entity.
+      example: "fan.xiaomi_miio_device"
